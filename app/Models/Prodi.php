@@ -7,4 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class Prodi extends Model
 {
     protected $table = 'prodi';
+
+    public function fakultas(){
+        return $this->belongsto(Fakultas::class, 
+        'fakultas_id','id');
+    }
 }
