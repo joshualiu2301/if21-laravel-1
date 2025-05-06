@@ -4,4 +4,5 @@
     {{$item->npm}}
     {{$item->nama}} <br /> 
     {{ $item->prodi->fakultas->nama }}
+    {{ $item->prodi->fakultas->nama_dekan }}
 @endforeach
