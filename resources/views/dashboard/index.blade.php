@@ -1,5 +1,7 @@
 @extends('main')
+
 @section('title', 'Dashboard')
+
 @section('content')
 
 <!-- html -->
@@ -144,7 +146,7 @@ Highcharts.chart('container-asalsma', {
         type: 'column'
     },
     title: {
-        text: 'Jumlah Mahasiswa Berdasarkan Asal SMA/SMK'
+        text: 'Jumlah Mahasiswa Berdasarkan Asal SMA'
     },
     subtitle: {
         text:
